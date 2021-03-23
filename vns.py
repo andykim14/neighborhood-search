@@ -27,7 +27,6 @@ best_path = math.inf #양의 무한대 고고
 L = 300  ##### 300 kg highest load capacity of a vehicle
 LL = 950
 
-#random.seed(100)
 
 
 #cities = [0,1,2,3,4,5,6,7,8,9]
@@ -64,7 +63,7 @@ BTD = [[18,8,17,10,16,12,11,6,7,9,13,6,9,13,15,22],
 def calc_distance(city1, city2):
     return distances[city1][city2]  # ord('A')=65
 
-def calc_distance1(city1, city2): #이건 도시 두개가 인풋이 아닌데?
+def calc_distance1(city1, city2): 
     return BTD[city1][city2]  # ord('A')=65
 
 # creates a random route
@@ -135,7 +134,7 @@ def adapt_path():
     
     ### check the total load of all bins
     l = 0
-    for i1 in range(0,len(route_m)) : #L이 171,340 이렇게도 나오는데 이미 너무 흘러넘친거 아닌가
+    for i1 in range(0,len(route_m)) : 
         i = route_m[i1]
         l += route[i]
         print("L=",l)
