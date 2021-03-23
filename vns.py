@@ -1,7 +1,6 @@
 
 import random
 import math
-#import goto, label
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -447,9 +446,6 @@ def bin_aloc():
 if __name__ == "__main__":
     bin_aloc()
     adapt_path()
-
-#bin_aloc()
-#adapt_path()
 
 if D1 < D2 :
     Dist = D1
