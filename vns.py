@@ -1,7 +1,6 @@
 
 import random
 import math
-#import goto, label
 import numpy as np
 import matplotlib.pyplot as plt
 
