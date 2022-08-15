@@ -33,7 +33,6 @@ LL = 950
 #cities = []       # list that holds basic input nodes
 cities = list(range(node))
 best_index = [0] * len(cities)
-# distance matrix for our 42 cities
 distances = [[1000,18,13,8,21,7,15,12,24,28,32,24,22,26,34,42],
              [18,1000,9,10,9,11,19,6,6,10,14,12,18,22,20,24],
              [13,9,1000,7,8,19,27,14,11,15,19,21,27,31,29,28],
